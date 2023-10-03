@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: grey;
+        }
+        header, section, footer {
+            border: 1px solid black ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>This is a Header</h2>
+        <nav>
+            <h3>This is a Navigation</h3>
+            <ul type="none" >
+                <li><a href="#formsection">Section 1</a></li>
+                <li><a href="#">Form Section </a></li>
+                <li><a href="#">Form Section </a></li>
+                <li><a href="#footer">Footer </a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="formSection">
+        <h3>Section 1</h3>
+        <article>
+            <h4>Web Browser</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, blanditiis.</p>  
+        </article>
+        <article>
+            <h3>Google Choreme</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatum?</p>
+        </article>
+        <article>
+            <h3>Article</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nisi!</p>
+        </article>
+        <article>
+            <h3>MOzilla Firefox</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, praesentium?</p>
+        </article>
+    </section>
+    <section id="formSection1" >
+        <h3>Form section 1</h3>
+        <label for="name">Name</label>
+        <input type="text" name="" id="name"> 
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male"> 
+        <label for="male">Male</label>
+        <input type="radio" name="" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="pet">Pet:</label>
+        <select name="" id="pet"  >
+            <option value="pet">City</option>
+        </select>
+        <input type="submit" id="submit">
+    </section>
+    <section id="formSection2" >
+        <h3>Form section 1</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Email address</th>
+                </tr>
+                <tr>
+                    <td>Hillary</td>
+                    <td>Nyakundin</td>
+                    <td>tables@mail.com</td>
+                </tr>
+                <tr>
+                    <td>Lary</td>
+                    <td>Mak</td>
+                    <td>developeer@gmail.com</td>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" >Hillary</td>
+                    <td>Advanced Web</td>
+                    <td  >75</td>
+                </tr>
+                <tr>
+                    <td>Operating system</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" >Lary</td>
+                    <td>Advanced Web</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Operating system</td>
+                    <td>233</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer id="footer">
+       <h3>footer</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsa!</p> 
+    </footer>
+
+    
+</body>
+</html>
