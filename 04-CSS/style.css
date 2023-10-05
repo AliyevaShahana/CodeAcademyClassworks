@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headDiv {
+    background-image: url("./Harry-Potter.avif");
+    background-position: center;
+    color: white;
+    height: 230px;
+}
+.filmChNames {
+    color: red;
+    
+}
+.heading{
+    background-color: green;
+}
