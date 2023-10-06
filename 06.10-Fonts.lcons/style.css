@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 20px 5px;
+}
+p.lorem {
+    font-family: 'Martian Mono', monospace;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 119, 255);
+}
+p.heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(165, 104, 223);
+    text-shadow: 2px 1px 4px;
+}
+p.tootSie {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+p.tootSie span {
+    font-weight: 600;
+}
+p.jelly {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
+    color: rgb(12, 107, 75);    
+    text-shadow: 2px 1px 4px;
+    font-size: 30px;
+    text-decoration-line: overline ;
+}
+p.lemon {
+    font-family: 'Martian Mono', monospace;
+    font-size: 20px;
+    color: red;
+    text-decoration: dashed ;
+}
+p.love {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+p.apple {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    text-decoration-line:line-through ;
+    color: teal;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+
+
+
+
