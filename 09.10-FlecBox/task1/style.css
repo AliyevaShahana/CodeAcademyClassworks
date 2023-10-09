@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+
+    margin: 0px auto;
+    background-color: black;
+    height: 5vh;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.boxes .box {
+    width: 30%;
+    height: 30vh;
+    background-color: rgb(51, 130, 150);
+    border-radius: 5px;
+}
+.boxes {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 5vh 0 ; 
+}
+.footer {
+    background-color: rgb(211, 171, 201);
+    border-radius: 5px ;
+    height: 30px;
+    width: 90%;
+    margin: 5%;
+
+}
