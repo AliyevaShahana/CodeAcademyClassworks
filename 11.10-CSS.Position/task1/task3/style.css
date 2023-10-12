@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#A , #B , #C , #D , #E{
+    height: 30vh;
+}
+.A, .B, .C, .D, .E {
+    height: 5vh;
+    background-color: black;
+    color: aliceblue;
+    position:sticky ;
+    top: 0;
+}
+#E {
+    height: 300vh;
+}
