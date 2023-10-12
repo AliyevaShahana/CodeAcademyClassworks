@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height:300vh ;
+    background-color: burlywood;
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+
+}
+.orange {
+    width: 95vw; 
+    height: 20vh;
+    background-color: orange;
+    border: 3px solid rgb(0, 132, 255);
+    border-radius: 5px ;
+   position: fixed;
+}
+.greenyellow {
+    width: 80vw;
+    height: 10vh;
+    background-color: greenyellow;
+    border: 3px solid rgb(0, 132, 255);
+    border-radius: 5px;
+    margin-top: 23vh;
+    position: relative;
+}
+.teal {
+    width: 95vw; 
+    height: 13vh;
+    background-color: teal;
+    border: 3px solid rgb(0, 132, 255);
+    border-radius: 5px ;
+   
+}
+.blue {
+    width: 80vw;
+    height: 10vh;
+    background-color: rgb(26, 110, 189);
+    border: 3px solid rgb(0, 132, 255);
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}
