@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none
+}
+header {
+  background-color: teal;
+  color: white;
+  padding: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+a {
+  color: white;
+}
+button {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.button .sign {
+  background-color: rgb(176, 231, 231);
+  color: teal;
+}
+.button .log {
+  background-color: teal;
+  color: white;
+}
+.fa-solid {
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 3vh;
+}
+.checkbox {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+.SIGN-UP {
+  position: relative;
+  display: inline-block;
+}
+
+.sign-up {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  border-top-left: 0;
+  border-radius: 10px;
+
+}
+.email {
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header nav ul {
+    display: none;
+  }
+  button {
+    display: none;
+  }
+  .fa-solid {
+    display: block;
+  }
+}
