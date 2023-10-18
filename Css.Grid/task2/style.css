@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  height: 60vh;
+}
+.box {
+  background-color: rgb(25, 25, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  color: white;
+}
+h2 {
+  font-size: 15px;
+}
+.box:nth-child(1),
+.box:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  grid-row: span 3;
+}
+img {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 150px;
+}
+.box:nth-child(2) {
+  grid-row: span 5;
+  grid-column: 2 / span 2;
+  background-image: url("./ama-dablam2-most-beautiful-mountains-in-the-world.webp");
+  background-position: center;
+}
+.box:nth-child(7) {
+  grid-column: 2;
+}
+.box:nth-child(9) {
+  grid-column: 1;
+  grid-row: 6;
+}
+.box:nth-child(10) {
+  grid-column: 3;
+  grid-row: 7;
+}
+.box:nth-child(11) {
+  grid-column: 2;
+  grid-row: 7;
+}
+.box:nth-child(5) {
+  grid-row: span 4;
+}
+.box:nth-child(6),
+.box:nth-child(12) {
+  background-color: rgb(255, 136, 0);
+}
+.box:nth-child(7) .box:nth-child(8) .box:nth-child(10) .box:nth-child(11) {
+
+}
+.circle {
+  height: 5vh;
+  width: 3vw;
+  background-color: white;
+  border-radius: 70px;
+}
+.box:nth-child(),
+.box:nth-child(12),
+.box:nth-child(7),
+.box:nth-child(9) {
+
+  }
